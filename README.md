@@ -13,7 +13,7 @@
 
 Если я попыталась запустить HTML-файл напрямую из папки в браузере, я могла столкнуться с ошибкой CORS (Cross-Origin Resource Sharing). Это происходит потому, что браузеры блокируют запросы к файлам, которые находятся не на том же источнике, что и веб-страница. Вот типичное сообщение об ошибке, которое я могла увидеть:
 
-`“Access to script at ‘file:///D:/js_ind_2/src/index.js’ from origin ‘null’ has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, isolated-app, chrome-extension, chrome, https, chrome-untrusted.”`
+`“Access to script at ‘"path to index.js file"’ from origin ‘null’ has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, isolated-app, chrome-extension, chrome, https, chrome-untrusted.”`
 
 ## Описание моей лабораторной работы
 В этой лабораторной работе я сосредоточилась на разработке функции `getRandomActivity()`, которая делает запрос к API и получает данные о случайной активности. Я использовала `fetch()` для выполнения HTTP-запроса и обработала полученные данные, чтобы отобразить текст активности на веб-странице.
